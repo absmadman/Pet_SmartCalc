@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pictures/ac.png</file>
+        <file>pictures/acos.png</file>
+        <file>pictures/as.png</file>
+        <file>pictures/asin.png</file>
+        <file>pictures/atan.png</file>
+        <file>pictures/bg_credit.png</file>
+        <file>pictures/bg_old.png</file>
+        <file>pictures/bg_wide.png</file>
+        <file>pictures/bg.png</file>
+        <file>pictures/calculate.png</file>
+        <file>pictures/close_bracket.png</file>
+        <file>pictures/cos.png</file>
+        <file>pictures/credit.png</file>
+        <file>pictures/degree.png</file>
+        <file>pictures/del.png</file>
+        <file>pictures/divide.png</file>
+        <file>pictures/dot.png</file>
+        <file>pictures/eight.png</file>
+        <file>pictures/equal.png</file>
+        <file>pictures/five.png</file>
+        <file>pictures/four.png</file>
+        <file>pictures/graph_light.png</file>
+        <file>pictures/graph.png</file>
+        <file>pictures/ln.png</file>
+        <file>pictures/log.png</file>
+        <file>pictures/minus.png</file>
+        <file>pictures/mod.png</file>
+        <file>pictures/mul.png</file>
+        <file>pictures/nine.png</file>
+        <file>pictures/one.png</file>
+        <file>pictures/open_bracket.png</file>
+        <file>pictures/plus.png</file>
+        <file>pictures/seven.png</file>
+        <file>pictures/sin_pressed.png</file>
+        <file>pictures/sin.png</file>
+        <file>pictures/six.png</file>
+        <file>pictures/sqrt.png</file>
+        <file>pictures/tan.png</file>
+        <file>pictures/three.png</file>
+        <file>pictures/two.png</file>
+        <file>pictures/x.png</file>
+        <file>pictures/zero.png</file>
+    </qresource>
+</RCC>

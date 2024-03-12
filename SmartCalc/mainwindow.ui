@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1420</width>
+    <height>851</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1420</width>
+    <height>851</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>700</width>
+     <height>800</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>1420</width>
+     <height>800</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(&quot;:/pictures/bg.png&quot;)  0 0 0 0 stretch stretch
+</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="5">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QCustomPlot" name="widget" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QWidget {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="5">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <item row="0" column="1">
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="2">
+       <widget class="QSpinBox" name="spinBox">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>175</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>175</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QSpinBox" name="spinBox_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>175</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>175</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="4">
+       <widget class="QSpinBox" name="spinBox_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>175</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>175</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="push_x">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;a
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/x.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>x</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QSpinBox" name="spinBox_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>175</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>170</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <spacer name="horizontalSpacer_5">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeType">
+         <enum>QSizePolicy::Fixed</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="3">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="5" column="3">
+       <widget class="QPushButton" name="push_divide">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/divide.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="push_ac">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;a
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/ac.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>ac</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="push_degree">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/degree.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>^</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="3">
+       <widget class="QPushButton" name="push_equal">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;a
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/equal.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QPushButton" name="push_mul">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/mul.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>*</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="1">
+     <layout class="QGridLayout" name="gridLayout_7" columnstretch="0,0,0">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetFixedSize</enum>
+      </property>
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="push_number_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/two.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="push_number_6">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/six.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="push_number_5">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string/>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/five.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="push_number_0">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/zero.png&quot;) 0 0 0 0 stretch stretch
+}
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="push_number_7">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/seven.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}
+</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="push_number_8">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/eight.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="push_number_4">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/four.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="push_number_9">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/nine.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="push_number_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/three.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="push_number_1">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/one.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="push_open_br">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/open_bracket.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="push_close_br">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/close_bracket.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>)</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="push_dot">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/dot.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QPushButton" name="push_plus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/plus.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="push_minus">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/minus.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QTabWidget" name="tabWidget">
+        <property name="minimumSize">
+         <size>
+          <width>520</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>520</width>
+          <height>200</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QTabWidget {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+        </property>
+        <property name="currentIndex">
+         <number>0</number>
+        </property>
+        <widget class="QWidget" name="tab">
+         <attribute name="title">
+          <string>Main expression</string>
+         </attribute>
+         <widget class="QTextEdit" name="textEdit">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>520</width>
+            <height>180</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>520</width>
+            <height>180</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>120</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTextEdit {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="tab_2">
+         <attribute name="title">
+          <string>X expresssion</string>
+         </attribute>
+         <widget class="QTextEdit" name="text_x">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>520</width>
+            <height>180</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>520</width>
+            <height>180</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>520</width>
+            <height>180</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QTextEdit {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="3">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="rightMargin">
+       <number>20</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="push_credit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>100</horstretch>
+          <verstretch>100</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/credit.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>del</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="push_graph">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+          <horstretch>100</horstretch>
+          <verstretch>100</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;a
+	font: 1pt &quot;Times New Roman&quot;;
+border-image: url(&quot;:/pictures/graph.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+	border-image: url(&quot;:/pictures/graph_light.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>graph</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="0">
+     <layout class="QGridLayout" name="gridLayout_5">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetDefaultConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="push_acos">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/acos.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>acos(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="push_cos">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/cos.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>cos(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QPushButton" name="push_log">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/log.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>log(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="push_atan">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/atan.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>atan(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="push_asin">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/asin.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>asin(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="push_tan">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/tan.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>tan(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="push_sqrt">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/sqrt.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>sqrt(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="push_ln">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/ln.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>ln(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="push_sin">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/sin.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>sin(</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="push_mod">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/mod.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="1" column="4">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Fixed</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>10</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1420</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

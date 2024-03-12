@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>credit</class>
+ <widget class="QMainWindow" name="credit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>700</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>700</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>700</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">border-image: url(&quot;:/pictures/bg_credit.png&quot;)  0 0 0 0 stretch stretch</string>
+   </property>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>40</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>140</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>240</number>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>40</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>140</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>240</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="push_calc">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>180</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>180</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>180</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	color: transparent;
+	border: 2px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 1pt &quot;Times New Roman&quot;;
+	border-image: url(&quot;:/pictures/calculate.png&quot;) 0 0 0 0 stretch stretch
+}
+
+QPushButton:hover:!pressed
+{
+  border: 1px solid red;
+}
+
+QPushButton:pressed
+{
+	border-radius: 20px; 
+}</string>
+    </property>
+    <property name="text">
+     <string>ca</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>231</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 18pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Annuity</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Differentiated</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDoubleSpinBox" name="doubleSpinBox">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>140</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDoubleSpinBox {
+	color: none;
+	border: 1px solid;
+	border-radius: 8px; 
+	white-space: normal;
+	gridline-color: gray;
+	text-align: center;
+	font: 32pt &quot;Monaco&quot;;
+	border-image:  none;
+	background-color: palette(base);
+}</string>
+    </property>
+    <property name="minimum">
+     <double>0.010000000000000</double>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>700</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
